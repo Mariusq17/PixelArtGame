@@ -92,7 +92,7 @@ function getNewGridItem(itemColor, scale, x, y, width, height) {
   gridItem.style.height = `${8 * scale}px`;
   // gridItem.innerText = distinctColors.indexOf(itemColor);
 
-  gridItem.style.backgroundColor = gridItem.getAttribute("itemColor");
+  // gridItem.style.backgroundColor = gridItem.getAttribute("itemColor");
 
   gridItem.addEventListener("click", () => {
     if (currentColorIndex == undefined || currentColorIndex != colorIndex)
